@@ -1,0 +1,88 @@
+/**
+ * This file is part of Balkinizer v3.
+ *
+ * Balkinizer v3 is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * Balkinizer v3 is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with Balkinizer v3.  If not, see <http://www.gnu.org/licenses/>.
+**/
+
+QMainWindow {
+    background-color: #FAFAFA;
+}
+
+QPushButton {
+    border: 0;
+    background-color: #0080FF;
+    color: #FAFAFA;
+    height: 24px;
+}
+
+QPushButton#theStartButton {
+    width: 320px;
+    height: 72px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+QLabel#pathErr {
+    color: red;
+    font-style: italic;
+}
+
+QPushButton#setOutputPath {
+    width: 96px;
+}
+
+QLineEdit#outputPath {
+    font-size: 11pt;
+    height: 22px;
+    border: 1px solid #BDBDBD;
+}
+
+QLineEdit#outputPath:focus{
+    border-color: #0080FF;
+}
+
+/*
+
+QComboBox {
+    background-color: #0080FF;
+    color: #FAFAFA;
+    border: 0;
+    height: 24px;
+    font-size: 12pt
+}
+
+QComboBox:disabled{
+    background-color: #BDBDBD;
+}
+
+QComboBox::drop-down {
+    border: 0;
+}
+
+QComboBox::down-arrow{
+    image: url(:/img/down-arrow.png);
+    width:16px;
+    height:16px;
+    margin-right: 4px;
+}
+
+QComboBox QAbstractItemView {
+    selection-background-color: #0080FF;
+}
+
+QLabel {
+    font-size: 12pt;
+}
+
+*/

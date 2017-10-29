@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/qss">
+        <file>window.css</file>
+    </qresource>
+    <qresource prefix="/img"/>
+</RCC>
